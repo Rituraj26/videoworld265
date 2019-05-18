@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+	color: rgb(116, 116, 116);
+}
+
+.container {
+	font-weight: 300;
+
+	display: grid;
+	grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(10, [col-start] minmax(min-content, 12rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+	grid-column-gap: 1.3rem;
+}

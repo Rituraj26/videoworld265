@@ -1,0 +1,3 @@
+.video__detail--container {
+	grid-column: full-start / col-end 7;
+}
