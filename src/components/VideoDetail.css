@@ -1,3 +1,11 @@
 .video__detail--container {
-	grid-column: full-start / col-end 7;
+    grid-column: full-start / col-end 7;
+}
+
+.video__detail--container h1 {
+    padding: 1rem;
+}
+
+.video__detail--container p {
+    padding: 1rem;
 }

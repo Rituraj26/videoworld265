@@ -1,16 +1,17 @@
 .video__list--container {
-	grid-column: col-start 8 / full-end;
+    grid-column: col-start 8 / full-end;
 
-	display: grid;
-	grid-template-rows: repeat(2, min-content);
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
 }
 
 .video__list--heading {
-	background-color: rgba(243, 243, 243, 0.815);
-	height: 100%;
-	padding: 0 1.2rem;
+    height: 100%;
+    padding: 1.5rem 0;
 }
 
 .video__list--lists {
-	background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-gap: 1rem;
 }
